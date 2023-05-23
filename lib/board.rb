@@ -9,6 +9,6 @@ class ChessBoard
   end
 
   def valid_position?(pos_x, pos_y)
-    pos_x.between?(1..size) && pos_y.between?(1..size)
+    pos_x.between?(1, size) && pos_y.between?(1, size)
   end
 end
